@@ -54,14 +54,6 @@ public class App {
     static void createMap(String[][] map, String[] tiles) {
         int x, y;
 
-        // Storing the map
-        for (x = 0; x < MAP_SIZE; x++) {
-            for (y = 0; y < MAP_SIZE; y++) {
-                System.out.print(map[x][y] = "");
-            }
-        }
-
-        // Designing the map
         for (x = 0; x < MAP_SIZE; x++) {
             for (y = 0; y < MAP_SIZE; y++) {
                 if (x == 0 || x == MAP_SIZE - 1) {
